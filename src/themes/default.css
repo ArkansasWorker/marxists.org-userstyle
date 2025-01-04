@@ -10,26 +10,26 @@ Default
 	if theme == default {
 
 		:root {
-			--max-col-width: var(--mainColumnMaxWidth,720px);
+			--max-col-width: mainColumnMaxWidth;
 
 			--font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
 			--font-family-serif: Georgia,serif;
 			--font-heading: var(--font-family-sans);
 
-			--main-bg: var(--liteModeBackgroundColor, #fbf3e9);
+			--main-bg: liteModeBackgroundColor;
 
-			--primary-text: var(--liteModePrimaryText, #3B3833);
+			--primary-text: liteModePrimaryText;
 				--light-text: #867d73;
 				--faint-text: #aaa29a;
-				--heading-text: var(--liteModeHeadingText, #393735);
+				--heading-text: liteModeHeadingText;
 
 			--horizontal-rule-border-bottom-props: 2px solid rgba(0, 0, 0, .25);
 			--end-horizontal-rule-border-bottom-props: 5px solid #000;
 
-			--link: var(--liteModeLinkColor, #1780CF);
-			--link-hover: var(--liteModeLinkHoverColor, #0091FF);
-			--link-visited: var(--liteModeLinkVisitedColor, #625A9E);
-			--link-active: var(--liteModeLinkHoverColor, #0091FF);				
+			--link: liteModeLinkColor;
+			--link-hover: liteModeLinkHoverColor;
+			--link-visited: liteModeLinkVisitedColor;
+			--link-active: liteModeLinkHoverColor;
 
 			--image-shadow: none;
 			--image-border-props: 1px solid #000;
@@ -86,17 +86,17 @@ Default
 
 	@media (prefers-color-scheme: dark) {
 		:root {
-			--main-bg: var(--darkModeBackgroundColor, #181C23);
+			--main-bg: darkModeBackgroundColor;
 
-			--primary-text: var(--darkModePrimaryText, #E3EDFD);
+			--primary-text: darkModePrimaryText;
 				--light-text: #a3aebf;
 				--faint-text: #4d5563;
-				--heading-text: var(--darkModeHeadingText, rgba(255,255,255,.9));
+				--heading-text: darkModeHeadingText;
 
-			--link: var(--darkModeLinkColor, #0091FF);
-			--link-hover: var(--darkModeLinkHoverColor, #66bdff);
-			--link-visited: var(--darkModeLinkVisitedColor, #A078FF);
-			--link-active: var(--darkModeLinkActiveColor, #A078FF);
+			--link: darkModeLinkColor;
+			--link-hover: darkModeLinkHoverColor;
+			--link-visited: darkModeLinkVisitedColor;
+			--link-active: darkModeLinkActiveColor;
 
 			--input-border: 1px solid rgba(255,255,255,.5);
 			--input-border-focus: 1px solid var(--link);

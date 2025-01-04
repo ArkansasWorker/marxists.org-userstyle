@@ -35,7 +35,7 @@
 
 @-moz-document __DOMAINS__ {
 	:root {
-		--max-col-width: var(--mainColumnMaxWidth,720px);
+		--max-col-width: mainColumnMaxWidth;
 
 		--font-family-sans: sans-serif;
 		--font-family-serif: serif;
